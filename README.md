@@ -1,12 +1,13 @@
-MyGame
-######
+#MyGame
+
+-----------------
 
 Mi a játék címe?
 ----------------
 
 __The Universe__
 
-Miről szól a játék?
+Miről szól?
 -------------------
 
 Egy open world játék kezdetleges változata, ahol szabadon játszhatsz barátaiddal egy egyedi karaktert létrehozva. A játékot a _Rockstar Games_ híres játéka a ___Grand Theft Auto V___ inspirálta.
