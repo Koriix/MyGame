@@ -1,4 +1,5 @@
-# MyGame
+MyGame
+######
 
 Mi a játék címe?
 ----------------
