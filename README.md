@@ -1,5 +1,6 @@
 #MyGame
 
+
 -----------------
 
 Mi a játék címe?
@@ -15,11 +16,12 @@ Egy open world játék kezdetleges változata, ahol szabadon játszhatsz baráta
 Miben készül?
 -------------
 
-A játékot __Unity__-ben készítem a _C#_ programozási nyelv segítségével.
+A játékot __Unity__-ben készítem  _C#_ programozási nyelv segítségével.
 
 Használt Asset-tek:
 -------------------
 
 _(Az asset-teket a Unity Asset Store-ban szereztem be.)_
+
 Outdoor Ground Textures: https://assetstore.unity.com/account/assets
 Készítette: A DOG'S LIFE SOFTWARE
