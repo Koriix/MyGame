@@ -1,0 +1,1107 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 22000.258; Version 2009; 64bit' Language: 'hu' Physical Memory: 32712 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+F:\Unity\2020.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/MyGame/The Universe
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50935
+Successfully changed project path to: F:/MyGame/The Universe
+F:/MyGame/The Universe
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 26.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
+[Subsystems] Discovering subsystems at path F:/Unity/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/MyGame/The Universe/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   
+    VRAM:     8012 MB
+    Driver:   30.0.14.9613
+Initialize mono
+Mono path[0] = 'F:/Unity/2020.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'F:/Unity/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'F:/Unity/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/Unity/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000933 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 26.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.900 seconds
+Domain Reload Profiling:
+	ReloadAssembly (900ms)
+		BeginReloadAssembly (51ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (316ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (120ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (125ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (27ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (65ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001699 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.779 seconds
+Domain Reload Profiling:
+	ReloadAssembly (780ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (605ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (210ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (221ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1401 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.1 MB.
+System memory in use after: 65.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1837.
+Total: 2.695400 ms (FindLiveObjects: 0.177100 ms CreateObjectMapping: 0.031500 ms MarkObjects: 2.422700 ms  DeleteObjects: 0.063100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Preview.png
+  artifactKey: Guid(f1b1b90c0dba304489c779f6cb8f053b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Preview.png using Guid(f1b1b90c0dba304489c779f6cb8f053b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33aeea3275738b0c4cbbc4bc94854e64') in 0.083007 seconds 
+  Import took 0.085162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019
+  artifactKey: Guid(5187af6b24d833647b7762423786f376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019 using Guid(5187af6b24d833647b7762423786f376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f53315df5d1ccda655826d083de9929') in 0.006913 seconds 
+  Import took 0.008829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.203171 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends
+  artifactKey: Guid(f26960a4fa55beb46a40265ac2808aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends using Guid(f26960a4fa55beb46a40265ac2808aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51538830f877b0b4dee0152357711ca0') in 0.002337 seconds 
+  Import took 0.004654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.095052 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/BaseCharacter.blend
+  artifactKey: Guid(cb22b6590ccb0544b86b2b7266e669ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/BaseCharacter.blend using Guid(cb22b6590ccb0544b86b2b7266e669ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7fcd65242bcc0461a66789ddbacf5b6') in 0.109809 seconds 
+  Import took 0.112592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Knight_Male.blend
+  artifactKey: Guid(29a7d408b54a060489f05fe6a665631c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Knight_Male.blend using Guid(29a7d408b54a060489f05fe6a665631c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79d8c5550774cd836e3584763bedd1f') in 0.035983 seconds 
+  Import took 0.038299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Cowboy_Female.blend
+  artifactKey: Guid(e903e77ae3f080a409598786989e25e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Cowboy_Female.blend using Guid(e903e77ae3f080a409598786989e25e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d43d1223ef31b0945299853e3cf341d') in 0.051211 seconds 
+  Import took 0.053652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Ninja_Female.blend
+  artifactKey: Guid(4e7dd2cc61f15264f80655d5ae8f8fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Ninja_Female.blend using Guid(4e7dd2cc61f15264f80655d5ae8f8fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce717bfd536b86ff4b84a272d73b3c21') in 0.041198 seconds 
+  Import took 0.043660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Soldier_Male.blend
+  artifactKey: Guid(4d4a97e2ae5c2e84a9278a526f5b1926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Soldier_Male.blend using Guid(4d4a97e2ae5c2e84a9278a526f5b1926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba8f3f6d132d922ae58b6b3ef08872d') in 0.041574 seconds 
+  Import took 0.044075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Worker_Male.blend
+  artifactKey: Guid(e446774c1f9bf504dac71afb7b691d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Worker_Male.blend using Guid(e446774c1f9bf504dac71afb7b691d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b812df5b6c6e75348238441f29be51') in 0.040928 seconds 
+  Import took 0.043346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Pirate_Female.blend
+  artifactKey: Guid(01101b4e1fea6844692397bf1eefe8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Pirate_Female.blend using Guid(01101b4e1fea6844692397bf1eefe8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ebfa1834e49d7a966c4cbe72f04fb4') in 0.051576 seconds 
+  Import took 0.054024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Doctor_Male_Young.blend
+  artifactKey: Guid(b142100173d100e4a963d7ea84dd9e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Doctor_Male_Young.blend using Guid(b142100173d100e4a963d7ea84dd9e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8476270a724fcbcb90d52970ad90a44') in 0.040702 seconds 
+  Import took 0.043031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Soldier_Female.blend
+  artifactKey: Guid(ac33187b8688c9145a1841ed7dbd6182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Soldier_Female.blend using Guid(ac33187b8688c9145a1841ed7dbd6182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6646f7c9dba2fdbc4e23447413ce1581') in 0.044262 seconds 
+  Import took 0.046784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Chef_Female.blend
+  artifactKey: Guid(20e9184e9ca10ac4da96ad50063066ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Chef_Female.blend using Guid(20e9184e9ca10ac4da96ad50063066ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69ce89203a0f9880028fd3297425e3f') in 0.043116 seconds 
+  Import took 0.045411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Cow.blend
+  artifactKey: Guid(678d1973ad6281148acdc89cdeb04465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Cow.blend using Guid(678d1973ad6281148acdc89cdeb04465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5408bcebb2839b8600a9d596dc0431') in 0.051779 seconds 
+  Import took 0.054266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Suit_Male.blend
+  artifactKey: Guid(65ca1c232f5890246a8878589471fd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Suit_Male.blend using Guid(65ca1c232f5890246a8878589471fd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea58a44bada7aaf2e975f79bf9c50e1') in 0.042676 seconds 
+  Import took 0.045014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Doctor_Female_Young.blend
+  artifactKey: Guid(1026a75599b435d4e8ac29309b41aa64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Doctor_Female_Young.blend using Guid(1026a75599b435d4e8ac29309b41aa64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0ab59a614ac2f043a574441ddd8711') in 0.042356 seconds 
+  Import took 0.044949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Elf.blend
+  artifactKey: Guid(49446078ab997e3489151b243e0321c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Elf.blend using Guid(49446078ab997e3489151b243e0321c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc9157f3ca55e0ef8efbbf7a0f98e30') in 0.043596 seconds 
+  Import took 0.045844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Ninja_Male.blend
+  artifactKey: Guid(6f857d3479dade7448ec987f63b0ab15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Ninja_Male.blend using Guid(6f857d3479dade7448ec987f63b0ab15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d8cc7e5f3a82950c53a46d29723bc1') in 0.038536 seconds 
+  Import took 0.041127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Chef_Hat.blend
+  artifactKey: Guid(52c6cd05c2047894d8c41727895c9c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Chef_Hat.blend using Guid(52c6cd05c2047894d8c41727895c9c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c39bd06781ff4769ce64080d4cc989') in 0.048776 seconds 
+  Import took 0.051039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Cowboy_Male.blend
+  artifactKey: Guid(a47e3f5a69abeff478e3147d830ebd94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Cowboy_Male.blend using Guid(a47e3f5a69abeff478e3147d830ebd94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9772559ece7788e59809cfccd49f845e') in 0.051932 seconds 
+  Import took 0.054462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Casual_Bald.blend
+  artifactKey: Guid(ae9cd1cb04b67a8488cc4dbd0da070f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Casual_Bald.blend using Guid(ae9cd1cb04b67a8488cc4dbd0da070f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbf112cfba95683b475ead5636bd87c') in 0.038954 seconds 
+  Import took 0.041247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Knight_Golden_Male.blend
+  artifactKey: Guid(847207a218090b44da905d23ef10aa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Knight_Golden_Male.blend using Guid(847207a218090b44da905d23ef10aa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8558b648300f605a55a98fb050fe30ec') in 0.043453 seconds 
+  Import took 0.046041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Viking_Male.blend
+  artifactKey: Guid(d9438b123b4c79d44ab8846df50dd226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Viking_Male.blend using Guid(d9438b123b4c79d44ab8846df50dd226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8aeef42fbb9d4f8cc28e4990fae8937') in 0.049772 seconds 
+  Import took 0.052426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/BlueSoldier_Female.blend
+  artifactKey: Guid(a2afbf6b041005345960087ae2faf741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/BlueSoldier_Female.blend using Guid(a2afbf6b041005345960087ae2faf741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6c994c681e4dc98dbe3d92b2e8fe66') in 0.049212 seconds 
+  Import took 0.051728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Kimono_Male.blend
+  artifactKey: Guid(b649fe4b0b996314d851a1d23e2c123c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Kimono_Male.blend using Guid(b649fe4b0b996314d851a1d23e2c123c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc588044c2871b51754156d0dbf26c4e') in 0.041364 seconds 
+  Import took 0.044108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Viking_Female.blend
+  artifactKey: Guid(1d6ce9d2fd1b7f34db0bdd6a0d0e8a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Viking_Female.blend using Guid(1d6ce9d2fd1b7f34db0bdd6a0d0e8a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa9e767f735b2affa0694d64d931e14') in 0.046839 seconds 
+  Import took 0.049182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Witch.blend
+  artifactKey: Guid(eec1876eecee6d84f954928a7a02de71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Witch.blend using Guid(eec1876eecee6d84f954928a7a02de71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e56d59f1a8ae1b6b887152e07271359') in 0.055150 seconds 
+  Import took 0.057712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/OldClassy_Female.blend
+  artifactKey: Guid(2ebadd6cfb134d442bdc0e8e3afd72bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/OldClassy_Female.blend using Guid(2ebadd6cfb134d442bdc0e8e3afd72bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89bd170878900a9f19ddc93400bf674a') in 0.055895 seconds 
+  Import took 0.058514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/VikingHelmet.blend
+  artifactKey: Guid(195ca834d6f658443881e1ab43dca1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/VikingHelmet.blend using Guid(195ca834d6f658443881e1ab43dca1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be79634b1c87559e0f99a9b3f4d17df') in 0.057377 seconds 
+  Import took 0.060039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Goblin_Male.blend
+  artifactKey: Guid(133ccebb774630f43a0a7c3577303bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Goblin_Male.blend using Guid(133ccebb774630f43a0a7c3577303bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef093478cc216afb0ed41715c64d834d') in 0.044397 seconds 
+  Import took 0.046774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Pug.blend
+  artifactKey: Guid(683c8e54d8a587d44a27f455329997cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Pug.blend using Guid(683c8e54d8a587d44a27f455329997cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8051002c867d52b1ab96bb62e05b8ec') in 0.052948 seconds 
+  Import took 0.055239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/BlueSoldier_Male.blend
+  artifactKey: Guid(046ec8864e99c5d4189bb6085c723ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/BlueSoldier_Male.blend using Guid(046ec8864e99c5d4189bb6085c723ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c068e1abdd9670604896fc13dffaa4') in 0.043692 seconds 
+  Import took 0.046129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Casual_Female.blend
+  artifactKey: Guid(c935744a73f6fa14ab0cb07242d58d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Casual_Female.blend using Guid(c935744a73f6fa14ab0cb07242d58d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460a4f08f897932c5def13292ef12c0b') in 0.047078 seconds 
+  Import took 0.049457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Casual2_Male.blend
+  artifactKey: Guid(4b880cdfb2087584887ce8aa9af9f19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Casual2_Male.blend using Guid(4b880cdfb2087584887ce8aa9af9f19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d792c02097c09fd555407bcf528aea') in 0.047281 seconds 
+  Import took 0.049841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Zombie_Female.blend
+  artifactKey: Guid(1f133253b2d80134487073f12020858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Zombie_Female.blend using Guid(1f133253b2d80134487073f12020858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2fc0c6bbcbaacb8d72722c37484bb98') in 0.052452 seconds 
+  Import took 0.054710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Kimono_Female.blend
+  artifactKey: Guid(eed5a86f30ef6f84bb0d3949e9fb5269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Kimono_Female.blend using Guid(eed5a86f30ef6f84bb0d3949e9fb5269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34bafee82b18cb20fdfbf0f6b1fe3b45') in 0.046786 seconds 
+  Import took 0.049339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Suit_Female.blend
+  artifactKey: Guid(c5ba104055da6e7448f66888dffcb21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Suit_Female.blend using Guid(c5ba104055da6e7448f66888dffcb21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85dec09ee363ecff053e6e7d37104498') in 0.049262 seconds 
+  Import took 0.051931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/OldClassy_Male.blend
+  artifactKey: Guid(afc93a07e2165a740b242f4b76870415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/OldClassy_Male.blend using Guid(afc93a07e2165a740b242f4b76870415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a64d5df62d65238a1ed03379cbee178') in 0.052828 seconds 
+  Import took 0.055523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Goblin_Female.blend
+  artifactKey: Guid(9e0f6b003b63d1745a45592e3be780e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Goblin_Female.blend using Guid(9e0f6b003b63d1745a45592e3be780e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8c4f2466fe5034563f420a228d8ef1') in 0.044140 seconds 
+  Import took 0.046414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Casual3_Male.blend
+  artifactKey: Guid(ac2739664ddbab74f9ae243aa2fb7a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Casual3_Male.blend using Guid(ac2739664ddbab74f9ae243aa2fb7a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1356d1d3afa0516aa02df36cad022ac') in 0.044431 seconds 
+  Import took 0.046972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Ninja_Sand.blend
+  artifactKey: Guid(a76664bba4babca43b3fb647d09d3169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Ninja_Sand.blend using Guid(a76664bba4babca43b3fb647d09d3169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425ff017399b78c46627fd939bf5d965') in 0.043276 seconds 
+  Import took 0.045628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Pirate_Male.blend
+  artifactKey: Guid(892231cbf4489d74c8545d247aa22a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Pirate_Male.blend using Guid(892231cbf4489d74c8545d247aa22a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08901ef6f6ad8204e61adc875482eccc') in 0.050243 seconds 
+  Import took 0.052918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Chef_Male.blend
+  artifactKey: Guid(578fe17c19355b14ea2a1d25209d851a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Chef_Male.blend using Guid(578fe17c19355b14ea2a1d25209d851a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6e91049cea00a638f9312e063da1b3') in 0.049761 seconds 
+  Import took 0.052111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Casual_Male.blend
+  artifactKey: Guid(ed034986df5114c4da2c7973005e1437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Casual_Male.blend using Guid(ed034986df5114c4da2c7973005e1437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5286f11d33359726c891548d5cfa2387') in 0.048220 seconds 
+  Import took 0.050804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Ninja_Male_Hair.blend
+  artifactKey: Guid(f1604deb4123afe44b40a6749a3c3e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Ninja_Male_Hair.blend using Guid(f1604deb4123afe44b40a6749a3c3e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b8b23c98c0c79eabc548865656fc51') in 0.046958 seconds 
+  Import took 0.049360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Wizard.blend
+  artifactKey: Guid(85c9373baa3ae834ab1b21a1d1fb676e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Wizard.blend using Guid(85c9373baa3ae834ab1b21a1d1fb676e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80a5098471145386173e237d718576a') in 0.046766 seconds 
+  Import took 0.048990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Worker_Female.blend
+  artifactKey: Guid(c37cdd54236f25940a5054f258649b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Worker_Female.blend using Guid(c37cdd54236f25940a5054f258649b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303872940c3e5b84587e84eba843b489') in 0.048889 seconds 
+  Import took 0.051461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Cowboy_Hair.blend
+  artifactKey: Guid(473ee0deeac4a5142a8bf78623a36c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Cowboy_Hair.blend using Guid(473ee0deeac4a5142a8bf78623a36c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0b465d9c760f2c907c5eeaddb95b5c') in 0.054058 seconds 
+  Import took 0.056501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Doctor_Female_Old.blend
+  artifactKey: Guid(a166980a26a86cd4d8ed6d93dae7c5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Doctor_Female_Old.blend using Guid(a166980a26a86cd4d8ed6d93dae7c5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3941e2897f0b9be5772118726fd5ae7') in 0.049714 seconds 
+  Import took 0.051996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Casual2_Female.blend
+  artifactKey: Guid(f5d05a1755907e94a94ff0a15b4720c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Casual2_Female.blend using Guid(f5d05a1755907e94a94ff0a15b4720c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b640ec56491f2692b26f79aa6cc38f7') in 0.046754 seconds 
+  Import took 0.049369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Casual3_Female.blend
+  artifactKey: Guid(7edc8819b2ded904bbc94b079728d7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Casual3_Female.blend using Guid(7edc8819b2ded904bbc94b079728d7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b08e60e4b7ef086d19a6fa08df9283') in 0.041124 seconds 
+  Import took 0.043366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Doctor_Male_Old.blend
+  artifactKey: Guid(63a098f9ebd8baa43b8f10b381877b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Doctor_Male_Old.blend using Guid(63a098f9ebd8baa43b8f10b381877b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546f18e73e1db86480ec6b80a521c0f0') in 0.045390 seconds 
+  Import took 0.048005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Zombie_Male.blend
+  artifactKey: Guid(b5486d1e405cbe2478ec855a141cc183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Zombie_Male.blend using Guid(b5486d1e405cbe2478ec855a141cc183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f731c9ae89bb4133f6882123780b6b1a') in 0.052777 seconds 
+  Import took 0.055599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Ninja_Sand_Female.blend
+  artifactKey: Guid(6b3c82f2f2104a64a8e8e34da3f40443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Ninja_Sand_Female.blend using Guid(6b3c82f2f2104a64a8e8e34da3f40443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d7ebddb5d9a3ef6a6cab789bd7aa14') in 0.045775 seconds 
+  Import took 0.048257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Knight_Golden_Female.blend
+  artifactKey: Guid(b12fd37f54f004b459ae19d91a84d2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/Blends/Knight_Golden_Female.blend using Guid(b12fd37f54f004b459ae19d91a84d2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee34a4d8ccb44f477a93d318d8ce3e2d') in 0.048759 seconds 
+  Import took 0.051385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.361647 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Elf.fbx
+  artifactKey: Guid(46bb0a74315608a4e8bdc926a66b92c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Elf.fbx using Guid(46bb0a74315608a4e8bdc926a66b92c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d72cdcf1bdd0a658f5c1b95b9f201d') in 0.075780 seconds 
+  Import took 0.078774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Casual_Female.fbx
+  artifactKey: Guid(651999a116186074d9d954ab042d2a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Casual_Female.fbx using Guid(651999a116186074d9d954ab042d2a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3108590bfcb1d9ca96b3e530a42da71d') in 0.275368 seconds 
+  Import took 0.277953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Casual_Bald.fbx
+  artifactKey: Guid(128558e6f1a805c4b8841c756b59fd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Casual_Bald.fbx using Guid(128558e6f1a805c4b8841c756b59fd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f091a9f9ed55efbc055d65e18ca1a32') in 0.052080 seconds 
+  Import took 0.054955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Wizard.fbx
+  artifactKey: Guid(85f224a5048cc3044ae7f94fad113421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Wizard.fbx using Guid(85f224a5048cc3044ae7f94fad113421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1a86d932914965b04db5f4462e9291') in 0.063785 seconds 
+  Import took 0.066382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Casual3_Male.fbx
+  artifactKey: Guid(445f4b6740ac9b44497b5d53342cbc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Casual3_Male.fbx using Guid(445f4b6740ac9b44497b5d53342cbc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08704e96ec5c28aa46a6b1eea2612939') in 0.057113 seconds 
+  Import took 0.059673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Ninja_Male_Hair.fbx
+  artifactKey: Guid(41a1973d815c7e8409e8a37a226e3886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Ninja_Male_Hair.fbx using Guid(41a1973d815c7e8409e8a37a226e3886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ee312b4cd641d92e124179be478750') in 0.057022 seconds 
+  Import took 0.059550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/VikingHelmet.fbx
+  artifactKey: Guid(4f1cd513e10391842bdab410b59b98ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/VikingHelmet.fbx using Guid(4f1cd513e10391842bdab410b59b98ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef96f8412adda4256d715f5e65739fc') in 0.060784 seconds 
+  Import took 0.063299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Witch.fbx
+  artifactKey: Guid(4296f900a18b84a47a99f47fc74df68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Witch.fbx using Guid(4296f900a18b84a47a99f47fc74df68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13847b7c1781edc070867b739a294ad') in 0.055700 seconds 
+  Import took 0.058565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Ninja_Male.fbx
+  artifactKey: Guid(79095fefa3b18cc43a11d46688a18fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Ninja_Male.fbx using Guid(79095fefa3b18cc43a11d46688a18fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae66eb26e95dd4ec58d8e1aae349a20') in 0.043008 seconds 
+  Import took 0.045701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Doctor_Male_Old.fbx
+  artifactKey: Guid(9ece2187e0bba824e850d5a4a5b2722f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Doctor_Male_Old.fbx using Guid(9ece2187e0bba824e850d5a4a5b2722f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f7c92b66d95291ad5cdac5814f3ad9') in 0.048563 seconds 
+  Import took 0.051187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Ninja_Sand.fbx
+  artifactKey: Guid(458a07d40e67c6b48991a8a43e322a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Ninja_Sand.fbx using Guid(458a07d40e67c6b48991a8a43e322a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbd31fd7f040a07f78c993451338bba') in 0.038554 seconds 
+  Import took 0.041054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Doctor_Male_Young.fbx
+  artifactKey: Guid(f755af7db16a26c4d9fc28c8f5a1877a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Doctor_Male_Young.fbx using Guid(f755af7db16a26c4d9fc28c8f5a1877a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8672a4bbc0deceb7d690b6524e92de1') in 0.044796 seconds 
+  Import took 0.047786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Doctor_Female_Old.fbx
+  artifactKey: Guid(7f5e288945a18b44e8ec9039538a9084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Doctor_Female_Old.fbx using Guid(7f5e288945a18b44e8ec9039538a9084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015de48cf0cf05740047d964f1a0ffdf') in 0.044144 seconds 
+  Import took 0.046789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.635812 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Ninja_Sand_Female.fbx
+  artifactKey: Guid(b5b5f95d95d010c468c06f285f148beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Ninja_Sand_Female.fbx using Guid(b5b5f95d95d010c468c06f285f148beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b572b1b3dbc41ebdd1af8f718c96fe4a') in 0.041907 seconds 
+  Import took 0.044924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Casual3_Female.fbx
+  artifactKey: Guid(48c00a72e7ea9124d92e53f8041e4b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Casual3_Female.fbx using Guid(48c00a72e7ea9124d92e53f8041e4b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2aacef2b1802946d11c0f94adc4216') in 0.060531 seconds 
+  Import took 0.063385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Viking_Male.fbx
+  artifactKey: Guid(3ca1bebecf8c9bb4aac9f3184e25f1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Viking_Male.fbx using Guid(3ca1bebecf8c9bb4aac9f3184e25f1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b22a28ad30b62a4172323a203fcf33') in 0.069906 seconds 
+  Import took 0.072508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/OldClassy_Female.fbx
+  artifactKey: Guid(68e002dc7d77b7d4793bfef051bca7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/OldClassy_Female.fbx using Guid(68e002dc7d77b7d4793bfef051bca7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc321d7ac87ecf3d682ebac4c3958226') in 0.066608 seconds 
+  Import took 0.069622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002900 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Knight_Male.fbx
+  artifactKey: Guid(9c34c7f90f0a236408b748ae6b3f3fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Knight_Male.fbx using Guid(9c34c7f90f0a236408b748ae6b3f3fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c94d8d4cabc920e4c1b287795a5d18') in 0.050364 seconds 
+  Import took 0.053043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/BlueSoldier_Male.fbx
+  artifactKey: Guid(0d6cccbaee06ec645a328d18e89ad228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/BlueSoldier_Male.fbx using Guid(0d6cccbaee06ec645a328d18e89ad228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae42e864c951baf45e148a62e803deb') in 0.058101 seconds 
+  Import took 0.060970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/BlueSoldier_Female.fbx
+  artifactKey: Guid(c654e218b3b641c439058a85cb6f993e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/BlueSoldier_Female.fbx using Guid(c654e218b3b641c439058a85cb6f993e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330e56db5da238d832f1e64543bd5617') in 0.049597 seconds 
+  Import took 0.052207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Chef_Male.fbx
+  artifactKey: Guid(66465cf24e0c8174dbe4ae898254f9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Chef_Male.fbx using Guid(66465cf24e0c8174dbe4ae898254f9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b838763f2fe2c1743df95c89a81be0') in 0.050340 seconds 
+  Import took 0.052805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Knight_Golden_Female.fbx
+  artifactKey: Guid(97783e1325a901a4ab76303dd0912e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Knight_Golden_Female.fbx using Guid(97783e1325a901a4ab76303dd0912e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483fe49551566d3506c52d06f99261ac') in 0.056467 seconds 
+  Import took 0.059406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/BaseCharacter.fbx
+  artifactKey: Guid(625baa31eae4c5042bb0e3256651a9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/BaseCharacter.fbx using Guid(625baa31eae4c5042bb0e3256651a9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f83f553015ec086d30e609e9888d1d9') in 0.037807 seconds 
+  Import took 0.040645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Casual2_Female.fbx
+  artifactKey: Guid(24f5cf3b8c8f266438d99d698ea58b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Casual2_Female.fbx using Guid(24f5cf3b8c8f266438d99d698ea58b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bcff63c057696827314055039e6d172') in 0.057123 seconds 
+  Import took 0.059799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Worker_Female.fbx
+  artifactKey: Guid(0a8867dc96ca6d3438017c6857e49ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Worker_Female.fbx using Guid(0a8867dc96ca6d3438017c6857e49ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8d3fa0b750181f21b85c40bd3ea166') in 0.056524 seconds 
+  Import took 0.059196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Kimono_Female.fbx
+  artifactKey: Guid(9d2749c4a11732446aa617dc37009f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Kimono_Female.fbx using Guid(9d2749c4a11732446aa617dc37009f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b12024e9c4dcdceaae4f0bbbef89db') in 0.054109 seconds 
+  Import took 0.056961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Suit_Male.fbx
+  artifactKey: Guid(b4c565e9de6eedc44805be0a0fe0ce95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Suit_Male.fbx using Guid(b4c565e9de6eedc44805be0a0fe0ce95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7ed246295549e11fe5f19f1e09cee3') in 0.054671 seconds 
+  Import took 0.057527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Soldier_Male.fbx
+  artifactKey: Guid(91fe08935be7f154dad55eb677de6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Soldier_Male.fbx using Guid(91fe08935be7f154dad55eb677de6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9750e361f70a3f40d02288c0bbf246d5') in 0.050184 seconds 
+  Import took 0.052936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Kimono_Male.fbx
+  artifactKey: Guid(33a4b9b6b360430409601c64a4a06893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Kimono_Male.fbx using Guid(33a4b9b6b360430409601c64a4a06893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f722d591ec691d104b2f949728a9af91') in 0.045562 seconds 
+  Import took 0.048388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046939 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Goblin_Male.fbx
+  artifactKey: Guid(0dd412738b7b6fd4cbadb9000bda4f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Goblin_Male.fbx using Guid(0dd412738b7b6fd4cbadb9000bda4f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7eac96d8ae2d1c26a146aa7cb0c9d9') in 0.036106 seconds 
+  Import took 0.039021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Viking_Female.fbx
+  artifactKey: Guid(c8b7c9558c717aa4cbf5d72ab01d1d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Viking_Female.fbx using Guid(c8b7c9558c717aa4cbf5d72ab01d1d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0600e10a560ab7007a0115d118b08c2') in 0.051018 seconds 
+  Import took 0.053930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Goblin_Female.fbx
+  artifactKey: Guid(675c5da4e0b39a04681e2d8aa61e7ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Goblin_Female.fbx using Guid(675c5da4e0b39a04681e2d8aa61e7ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f9d562006381a9fd12d62d69156777') in 0.050697 seconds 
+  Import took 0.053469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Zombie_Female.fbx
+  artifactKey: Guid(7cbd3b9741e12f74dbc07fd90ec8cf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Zombie_Female.fbx using Guid(7cbd3b9741e12f74dbc07fd90ec8cf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0349727808b5dbfcd16fe0315c308340') in 0.059973 seconds 
+  Import took 0.062864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Doctor_Female_Young.fbx
+  artifactKey: Guid(d4bbcea849634f04fa80c0588890cb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Doctor_Female_Young.fbx using Guid(d4bbcea849634f04fa80c0588890cb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a37e4098fe4eb66d65750bf0830297c') in 0.050651 seconds 
+  Import took 0.053418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Ninja_Female.fbx
+  artifactKey: Guid(f6b29c77509cc1041a9fd1f44db40d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Ninja_Female.fbx using Guid(f6b29c77509cc1041a9fd1f44db40d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c608a0d4759fd6a6b4663f02afaa1380') in 0.052816 seconds 
+  Import took 0.055407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Cowboy_Male.fbx
+  artifactKey: Guid(47379dca85ef8eb478b2d91c19281561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Cowboy_Male.fbx using Guid(47379dca85ef8eb478b2d91c19281561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de947204489cef1fda700d3b91a6aa3') in 0.060345 seconds 
+  Import took 0.063006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Cow.fbx
+  artifactKey: Guid(7eeb922f8abd2534b896a45a4a21e412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Cow.fbx using Guid(7eeb922f8abd2534b896a45a4a21e412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c377863d20f280dbc361afa180c8869') in 0.058637 seconds 
+  Import took 0.061426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Casual2_Male.fbx
+  artifactKey: Guid(cce211fa9b8d4e546bda3fd1c7dfd1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Casual2_Male.fbx using Guid(cce211fa9b8d4e546bda3fd1c7dfd1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08c65fb23fe31304156a19733e7743f') in 0.048943 seconds 
+  Import took 0.051639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Casual_Male.fbx
+  artifactKey: Guid(6b5a01cad9d76ac4e9285c25a0787af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Casual_Male.fbx using Guid(6b5a01cad9d76ac4e9285c25a0787af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d1a77f884be2e965c578fcd4ee5c1ec') in 0.051946 seconds 
+  Import took 0.054528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Pirate_Male.fbx
+  artifactKey: Guid(67e4f7e60568c9e40a07e259758ecf95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Pirate_Male.fbx using Guid(67e4f7e60568c9e40a07e259758ecf95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54494521da6cdcda5dcb642486fdc7ed') in 0.059453 seconds 
+  Import took 0.062302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Knight_Golden_Male.fbx
+  artifactKey: Guid(4e07359022d122e4ea60add4554462fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Knight_Golden_Male.fbx using Guid(4e07359022d122e4ea60add4554462fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad74ba83103df5781aa3a0b81a245fdd') in 0.044658 seconds 
+  Import took 0.047226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.419708 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Soldier_Female.fbx
+  artifactKey: Guid(4075cbe785279114ebedc01910c862e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Soldier_Female.fbx using Guid(4075cbe785279114ebedc01910c862e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897ac47b3819cbf72166b5c05c8d01e9') in 0.045868 seconds 
+  Import took 0.048868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Pirate_Female.fbx
+  artifactKey: Guid(8f50610f7c6bfa34485cfddc32156ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Pirate_Female.fbx using Guid(8f50610f7c6bfa34485cfddc32156ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6837b8e74260e3bd8477f6e9f24903') in 0.072693 seconds 
+  Import took 0.075529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Worker_Male.fbx
+  artifactKey: Guid(98a77cde11cf6dd41b25504217c323be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Worker_Male.fbx using Guid(98a77cde11cf6dd41b25504217c323be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0128234c13e65e20a889900ab150e10d') in 0.063441 seconds 
+  Import took 0.066366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.414212 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Cowboy_Female.fbx
+  artifactKey: Guid(1aced865487e4a241b055d4103fcf791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Cowboy_Female.fbx using Guid(1aced865487e4a241b055d4103fcf791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c35ea4a952be46a1d68e158374af16') in 0.059919 seconds 
+  Import took 0.062931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Zombie_Male.fbx
+  artifactKey: Guid(51b710944a7b82b4b98a4599276362b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Zombie_Male.fbx using Guid(51b710944a7b82b4b98a4599276362b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0646966bd293dbd9bc7b4833abecc9b') in 0.076828 seconds 
+  Import took 0.079582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Cowboy_Hair.fbx
+  artifactKey: Guid(fef97e4068dab3f4db49ee486d889987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Cowboy_Hair.fbx using Guid(fef97e4068dab3f4db49ee486d889987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba9a94cb068998053852cd75fbbfdf3') in 0.082511 seconds 
+  Import took 0.085349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Pug.fbx
+  artifactKey: Guid(1021a96e264638c499246efe04aab03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Pug.fbx using Guid(1021a96e264638c499246efe04aab03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e081610aa26c49a7f8f4de2eb7900883') in 0.067637 seconds 
+  Import took 0.070482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Chef_Female.fbx
+  artifactKey: Guid(c9b23bc30160da048ba14dbb6dddc1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Chef_Female.fbx using Guid(c9b23bc30160da048ba14dbb6dddc1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788b28f2a19ea9b0c1a11c7070be806c') in 0.058521 seconds 
+  Import took 0.061276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Suit_Female.fbx
+  artifactKey: Guid(a3037e7ac36519b429d3de47e6f99127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Suit_Female.fbx using Guid(a3037e7ac36519b429d3de47e6f99127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db86d8e0476f0d1fd4946faf0a30502a') in 0.056480 seconds 
+  Import took 0.059240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Chef_Hat.fbx
+  artifactKey: Guid(410878614b2792f43b16ec840eec4678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/Chef_Hat.fbx using Guid(410878614b2792f43b16ec840eec4678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c556785955952ea84b42a3fe483ed3') in 0.055111 seconds 
+  Import took 0.057726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/OldClassy_Male.fbx
+  artifactKey: Guid(e382d60d3b26a1f44b64db2a94bb98b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/OldClassy_Male.fbx using Guid(e382d60d3b26a1f44b64db2a94bb98b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a23a680525d9cc47c8deaffa39f19b') in 0.055981 seconds 
+  Import took 0.058826 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001766 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.720 seconds
+Domain Reload Profiling:
+	ReloadAssembly (720ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (575ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (198ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (33ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1395 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.9 MB.
+System memory in use after: 84.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1885.
+Total: 2.616500 ms (FindLiveObjects: 0.156600 ms CreateObjectMapping: 0.033100 ms MarkObjects: 2.412600 ms  DeleteObjects: 0.013200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 213.916140 seconds.
+  path: Assets/Ultimate Animated Character Pack - Nov 2019/FBX/CharacterArmature_Walk.anim
+  artifactKey: Guid(16385f178a951a245a1957a13e7eccc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate Animated Character Pack - Nov 2019/FBX/CharacterArmature_Walk.anim using Guid(16385f178a951a245a1957a13e7eccc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3b07f0b5ae4745523c6317d089017f') in 0.019871 seconds 
+  Import took 0.022193 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002036 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.724 seconds
+Domain Reload Profiling:
+	ReloadAssembly (724ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (568ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (204ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (196ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (33ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1395 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.0 MB.
+System memory in use after: 84.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1887.
+Total: 2.864800 ms (FindLiveObjects: 0.168800 ms CreateObjectMapping: 0.033700 ms MarkObjects: 2.644100 ms  DeleteObjects: 0.016700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
