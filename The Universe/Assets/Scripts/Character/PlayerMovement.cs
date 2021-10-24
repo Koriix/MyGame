@@ -26,12 +26,17 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         controller = GetComponent<CharacterController>();
-        anim = GetComponentInChildren<Animator>();
+        anim = GetComponent<Animator>();
     }
 
     private void Update()
     {
         Move();
+
+        if(Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            Attack();
+        }
     }
 
     private void Move()
@@ -97,5 +102,10 @@ public class PlayerMovement : MonoBehaviour
     private void Jump()
     {
         velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
+    }
+
+    private void Attack()
+    {
+        anim.SetTrigger("Attack");
     }
 }
