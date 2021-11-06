@@ -18,6 +18,11 @@ namespace Universe
             horizontal = Animator.StringToHash("Horizontal");
         }
 
+        public void Start()
+        {
+            anim.Play("Locomotion", 0, 0);
+        }
+
         public void UpdateAnimatorValues(float verticalMovement, float horizontalMovement)
         {
             #region Vertical
@@ -82,6 +87,7 @@ namespace Universe
         public void StopRotation()
         {
             canRotate = false;
-        }
+        } 
+
     }
 }
