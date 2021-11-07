@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 26
+  controlID: 72
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -227,7 +227,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 27
+  controlID: 121
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 28
+  controlID: 122
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -427,22 +427,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Character/Animations
+    - Assets/Scripts/Character
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Character/Animations
+  - Assets/Scripts/Character
   m_LastFoldersGridSize: -1
   m_LastProjectPath: F:\MyGame\The Universe
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 22}
-    m_SelectedIDs: 26470000
-    m_LastClickedID: 18214
-    m_ExpandedIDs: 000000001243000018430000224300004a6d00004c6d0000526d000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 82430000
+    m_LastClickedID: 17282
+    m_ExpandedIDs: 0000000024430000284300003443000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -470,7 +470,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000012430000
+    m_ExpandedIDs: 0000000024430000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -591,9 +591,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: da420000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 50fbffff143f0000383f0000
+      m_SelectedIDs: 183f0000
+      m_LastClickedID: 16152
+      m_ExpandedIDs: 46fbffff183f00003c3f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -653,9 +653,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 542.402, y: 0.2462617, z: 699.5452}
+    m_Target: {x: 543.123, y: -1.7234168, z: 700.6771}
     speed: 2
-    m_Value: {x: 542.402, y: 0.2462617, z: 699.5452}
+    m_Value: {x: 543.123, y: -1.7234168, z: 700.6771}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -702,9 +702,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.018868037, y: -0.9227092, z: 0.047672145, w: -0.38104475}
+    m_Target: {x: -0.03247914, y: -0.9125623, z: 0.076037236, w: -0.39951053}
     speed: 2
-    m_Value: {x: -0.018875437, y: -0.9230711, z: 0.047690842, w: -0.38119417}
+    m_Value: {x: -0.032491893, y: -0.91292065, z: 0.07606709, w: -0.3996674}
   m_Size:
     m_Target: 15.789063
     speed: 2
