@@ -16,5 +16,7 @@ MonoBehaviour:
   itemName: Axe
   modelPrefab: {fileID: 873884160837582044, guid: 3be8cf48b385d6c4bbe1e048c22bc2ec, type: 3}
   isUnarmed: 0
+  Axe_Idle_R: Axe_Idle_R
+  Axe_Idle_L: Axe_Idle_L
   OH_Light_Attack_1: OH_Light_Attack_1
   OH_Heavy_Attack_1: OH_Heavy_Attack_1

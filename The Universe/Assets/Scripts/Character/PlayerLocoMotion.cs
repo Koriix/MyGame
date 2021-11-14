@@ -192,7 +192,7 @@ namespace Universe
                     }
                     else
                     {
-                        animatorHandler.PlayerTargetAnimation("Locomotion", false);
+                        animatorHandler.PlayerTargetAnimation("Empty", false);
                         inAirTimer = 0;
                     }
 
