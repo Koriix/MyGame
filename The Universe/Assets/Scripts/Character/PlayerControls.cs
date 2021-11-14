@@ -192,13 +192,13 @@ public class @PlayerControls : IInputActionCollection, IDisposable
             ]
         },
         {
-            ""name"": ""Player Quick Slots"",
-            ""id"": ""6315bfb5-52ea-4a83-891e-76002fe0802c"",
+            ""name"": ""PlayerQuickSlots"",
+            ""id"": ""98b13b8e-ef60-4fec-b0bc-c62c253cbc8c"",
             ""actions"": [
                 {
                     ""name"": ""D-Pad Up"",
                     ""type"": ""Button"",
-                    ""id"": ""27f069f6-d55f-4e47-8d96-725534c0d07f"",
+                    ""id"": ""09b5b5c0-12fd-4c7d-aa4a-4515dc27382d"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
@@ -206,7 +206,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 {
                     ""name"": ""D-Pad Down"",
                     ""type"": ""Button"",
-                    ""id"": ""cd401825-5919-4c3f-b773-d18d876dce04"",
+                    ""id"": ""887fe984-2ee9-4392-a9e2-8f13eaad4885"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
@@ -214,7 +214,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 {
                     ""name"": ""D-Pad Left"",
                     ""type"": ""Button"",
-                    ""id"": ""b91623fe-7cb4-4078-9873-f77bc1f36fc9"",
+                    ""id"": ""a09398bd-0817-4db3-a96c-29fea433bafe"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
@@ -222,7 +222,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 {
                     ""name"": ""D-Pad Right"",
                     ""type"": ""Button"",
-                    ""id"": ""fa58c528-2a01-4081-84ec-a6cef0619331"",
+                    ""id"": ""6c661141-3cd0-48b7-960d-76f7e09c0aa9"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
@@ -231,7 +231,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
             ""bindings"": [
                 {
                     ""name"": """",
-                    ""id"": ""af426177-1120-454b-9e3c-efd6ae5b4e28"",
+                    ""id"": ""f020deed-6931-407a-9d13-6b9a7d457069"",
                     ""path"": ""<Keyboard>/upArrow"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -242,18 +242,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""6d7c9d4d-2cde-43dc-82b2-02117c4c560f"",
-                    ""path"": ""<Gamepad>/dpad/up"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""D-Pad Up"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""28f7e618-542b-4b8a-96ed-fb6e55db09ca"",
+                    ""id"": ""df4f1e57-d787-48f8-9de6-5b53824498f3"",
                     ""path"": ""<Keyboard>/downArrow"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -264,18 +253,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""dab3956b-00fa-46c0-941b-86d5d8d03967"",
-                    ""path"": ""<Gamepad>/dpad/down"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""D-Pad Down"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""89f31fb8-3cdc-467b-a0d8-b164f1020f95"",
+                    ""id"": ""cd607cdf-26fb-4bca-8eeb-f543030b29a8"",
                     ""path"": ""<Keyboard>/leftArrow"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -286,30 +264,8 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""fef906de-1e70-40be-a97c-394c6bc79489"",
-                    ""path"": ""<Gamepad>/dpad/left"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""D-Pad Left"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""a9c9a62b-5e2b-4752-bf14-11c45cfbee87"",
+                    ""id"": ""c8541350-a7bb-4960-9ba7-9f660284ef23"",
                     ""path"": ""<Keyboard>/rightArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""D-Pad Right"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""a2205685-0521-45e6-802a-365c0b1d1984"",
-                    ""path"": ""<Gamepad>/dpad/right"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -331,8 +287,8 @@ public class @PlayerControls : IInputActionCollection, IDisposable
         m_PlayerActions_Roll = m_PlayerActions.FindAction("Roll", throwIfNotFound: true);
         m_PlayerActions_RB = m_PlayerActions.FindAction("RB", throwIfNotFound: true);
         m_PlayerActions_RT = m_PlayerActions.FindAction("RT", throwIfNotFound: true);
-        // Player Quick Slots
-        m_PlayerQuickSlots = asset.FindActionMap("Player Quick Slots", throwIfNotFound: true);
+        // PlayerQuickSlots
+        m_PlayerQuickSlots = asset.FindActionMap("PlayerQuickSlots", throwIfNotFound: true);
         m_PlayerQuickSlots_DPadUp = m_PlayerQuickSlots.FindAction("D-Pad Up", throwIfNotFound: true);
         m_PlayerQuickSlots_DPadDown = m_PlayerQuickSlots.FindAction("D-Pad Down", throwIfNotFound: true);
         m_PlayerQuickSlots_DPadLeft = m_PlayerQuickSlots.FindAction("D-Pad Left", throwIfNotFound: true);
@@ -473,7 +429,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
     }
     public PlayerActionsActions @PlayerActions => new PlayerActionsActions(this);
 
-    // Player Quick Slots
+    // PlayerQuickSlots
     private readonly InputActionMap m_PlayerQuickSlots;
     private IPlayerQuickSlotsActions m_PlayerQuickSlotsActionsCallbackInterface;
     private readonly InputAction m_PlayerQuickSlots_DPadUp;
