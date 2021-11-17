@@ -14,9 +14,12 @@ namespace Universe
 
         Animator animator;
 
+        QuickSlotUI quickSlotUI;
+
         private void Awake()
         {
             animator = GetComponent<Animator>();
+            quickSlotUI = FindObjectOfType<QuickSlotUI>();
             WeaponHolderSlot[] weaponHolderSlots = GetComponentsInChildren<WeaponHolderSlot>();
             foreach(WeaponHolderSlot weaponSlot in weaponHolderSlots)
             {
@@ -36,6 +39,7 @@ namespace Universe
             {
                 leftHandSlot.LoadWeaponModel(weaponItem);
                 LoadLeftWeaponDamageCollider();
+                quickSlotUI.UpdateWeaponQuickSlotsUI(true, weaponItem);
 
                 #region Handle Left Weapon Idle Animations
                 if(weaponItem != null)
@@ -53,6 +57,7 @@ namespace Universe
             {
                 rightHandSlot.LoadWeaponModel(weaponItem);
                 LoadRightWeaponDamageCollider();
+                quickSlotUI.UpdateWeaponQuickSlotsUI(true, weaponItem);
 
                 #region Handle Right Weapon Idle Animations
                 if(weaponItem != null)

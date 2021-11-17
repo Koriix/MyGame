@@ -36,11 +36,15 @@ namespace Universe
             float delta = Time.deltaTime;
 
             isInteracting = anim.GetBool("isInteracting");
+            anim.SetBool("isInAir", isInAir);
             
             inputHandler.TickInput(delta);
             playerLocomotion.HandleMovement(delta);
             playerLocomotion.HandleRollingAndSprinting(delta);
             playerLocomotion.HandleFalling(delta, playerLocomotion.moveDirection);
+            playerLocomotion.HandleJumping();
+
+            CheckForInteractableObject();
         }
 
         private void FixedUpdate()
@@ -64,10 +68,36 @@ namespace Universe
             inputHandler.d_Pad_Up = false;
             inputHandler.d_Pad_Left = false;
             inputHandler.d_Pad_Right = false;
+            inputHandler.PickUp_Input = false;
+            inputHandler.jump_Input = false;
+            inputHandler.inventory_Input = false;
 
             if(isInAir)
             {
                 playerLocomotion.inAirTimer = playerLocomotion.inAirTimer + Time.deltaTime;
+            }
+        }
+
+        public void CheckForInteractableObject()
+        {
+            RaycastHit hit;
+
+            if(Physics.SphereCast(transform.position, 0.3f, transform.forward, out hit, 1f, cameraHandler.ignoreLayers))
+            {
+                if(hit.collider.tag == "interactable")
+                {
+                    Interactable interactableObject = hit.collider.GetComponent<Interactable>();
+
+                    if(interactableObject != null)
+                    {
+                        string interactableText = interactableObject.interactableText;
+
+                        if(inputHandler.PickUp_Input)
+                        {
+                            hit.collider.GetComponent<Interactable>().Interact(this);
+                        }
+                    }
+                }
             }
         }
         
