@@ -7,8 +7,7 @@ namespace Universe
     public class WeaponHolderSlot : MonoBehaviour
     {
         public Transform parentOverride;
-        public bool isLeftHandSlot;
-        public bool isRightHandSlot;
+        public bool isHandSlot;
 
         public GameObject currentWeaponModel;
 

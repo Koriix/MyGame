@@ -62,12 +62,9 @@ namespace Universe
         {
             inputHandler.rollFlag = false;
             inputHandler.sprintFlag = false;
-            inputHandler.rb_Input = false;
-            inputHandler.rt_Input = false;
-            inputHandler.d_Pad_Down = false;
-            inputHandler.d_Pad_Up = false;
-            inputHandler.d_Pad_Left = false;
-            inputHandler.d_Pad_Right = false;
+            inputHandler.light_Input = false;
+            inputHandler.heavy_Input = false;
+            inputHandler.quickChange = false;
             inputHandler.PickUp_Input = false;
             inputHandler.jump_Input = false;
             inputHandler.inventory_Input = false;

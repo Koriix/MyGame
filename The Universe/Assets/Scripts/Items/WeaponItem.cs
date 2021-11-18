@@ -11,12 +11,11 @@ namespace Universe
         public bool isUnarmed;
 
         [Header("Idle Animations")]
-        public string Axe_Idle_R;
-        public string Axe_Idle_L;
+        public string Axe_Idle;
 
         [Header("Attack Animations")]
-        public string OH_Light_Attack_1;
-        public string OH_Heavy_Attack_1;
+        public string Light_Attack;
+        public string Heavy_Attack;
     }
 
 }

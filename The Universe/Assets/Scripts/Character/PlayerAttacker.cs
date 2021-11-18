@@ -16,12 +16,12 @@ namespace Universe
 
         public void HandleLightAttack(WeaponItem weapon)
         {
-            animatorHandler.PlayerTargetAnimation(weapon.OH_Light_Attack_1, true);
+            animatorHandler.PlayerTargetAnimation(weapon.Light_Attack, true);
         }   
 
         public void HandleHeavyAttack(WeaponItem weapon)
         {
-            animatorHandler.PlayerTargetAnimation(weapon.OH_Heavy_Attack_1, true);
+            animatorHandler.PlayerTargetAnimation(weapon.Heavy_Attack, true);
         }
     }
 }

@@ -146,8 +146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentOverride: {fileID: 190489311}
-  isLeftHandSlot: 0
-  isRightHandSlot: 1
+  isHandSlot: 1
   currentWeaponModel: {fileID: 0}
 --- !u!1001 &221440417
 PrefabInstance:
@@ -170,7 +169,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4406749274061914, guid: f50a68efcef03a246b5ec7635f125d3d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 540.27
+      value: 536.941
       objectReference: {fileID: 0}
     - target: {fileID: 4406749274061914, guid: f50a68efcef03a246b5ec7635f125d3d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -178,7 +177,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4406749274061914, guid: f50a68efcef03a246b5ec7635f125d3d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 743.24
+      value: 737.32
       objectReference: {fileID: 0}
     - target: {fileID: 4406749274061914, guid: f50a68efcef03a246b5ec7635f125d3d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -235,14 +234,11 @@ MonoBehaviour:
   mouseY: 0
   b_Input: 0
   PickUp_Input: 0
-  rb_Input: 0
-  rt_Input: 0
+  light_Input: 0
+  heavy_Input: 0
   jump_Input: 0
   inventory_Input: 0
-  d_Pad_Up: 0
-  d_Pad_Down: 0
-  d_Pad_Left: 0
-  d_Pad_Right: 0
+  quickChange: 0
   rollFlag: 0
   sprintFlag: 0
   inventoryFlag: 0
@@ -368,15 +364,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec6b32c40b3285745bd6b2f1f583a0ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rightWeapon: {fileID: 11400000, guid: 5b9f6b8c1e6116b42b1de5b51f1201fc, type: 2}
-  leftWeapon: {fileID: 11400000, guid: 5b9f6b8c1e6116b42b1de5b51f1201fc, type: 2}
+  Hweapon: {fileID: 11400000, guid: 1cbbe60494bacca438a0cc81c42080a1, type: 2}
   unarmedWeapon: {fileID: 11400000, guid: d9acf2c853c53244598f47457ff7fc5c, type: 2}
-  weaponsInRightHandSlots:
-  - {fileID: 11400000, guid: 5b9f6b8c1e6116b42b1de5b51f1201fc, type: 2}
-  weaponsInLeftHandSlots:
-  - {fileID: 11400000, guid: 5b9f6b8c1e6116b42b1de5b51f1201fc, type: 2}
-  currentRightWeaponIndex: -1
-  currentLeftWeaponIndex: -1
+  weaponsInHandSlots:
+  - {fileID: 11400000, guid: 1cbbe60494bacca438a0cc81c42080a1, type: 2}
+  currentWeaponIndex: 0
   weaponsInventory: []
 --- !u!114 &221440428
 MonoBehaviour:
@@ -514,36 +506,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &324941300
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 324941301}
-  m_Layer: 0
-  m_Name: Left Hand Override
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &324941301
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 324941300}
-  m_LocalRotation: {x: 0.38151014, y: -0.87270725, z: -0.012295114, w: 0.30443552}
-  m_LocalPosition: {x: -0.013, y: -0.03, z: -0.037}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1392852922}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 167.829, y: 33.586, z: 136.45999}
 --- !u!1 &328234458
 GameObject:
   m_ObjectHideFlags: 0
@@ -553,6 +515,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 328234459}
+  - component: {fileID: 328234460}
   m_Layer: 5
   m_Name: Weapon Item Inventory
   m_TagString: Untagged
@@ -581,6 +544,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &328234460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328234458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19ba94105ef60b74fb5ee47c5f54f618, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icon: {fileID: 0}
 --- !u!1 &379321457
 GameObject:
   m_ObjectHideFlags: 0
@@ -817,6 +793,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 484441917}
+  - component: {fileID: 484441918}
   m_Layer: 5
   m_Name: Weapon Inventory Slot
   m_TagString: Untagged
@@ -844,6 +821,19 @@ RectTransform:
   m_AnchoredPosition: {x: 66, y: -90}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &484441918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484441916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19ba94105ef60b74fb5ee47c5f54f618, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icon: {fileID: 427483080}
 --- !u!1 &556949314
 GameObject:
   m_ObjectHideFlags: 0
@@ -1086,7 +1076,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edf794b3f9678a049a1a2fb626a9e678, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerInventory: {fileID: 221440427}
+  hudWindow: {fileID: 1672456521294381235}
   selectWindow: {fileID: 560168110}
+  weaponInventoryWindow: {fileID: 0}
+  weaponInventorySlotPrefab: {fileID: 484441916}
+  weaponInventorySlotsParent: {fileID: 1793971752}
 --- !u!224 &692626260 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1672456521985893350, guid: 94e5f6efea465574d9763007ccbedbb9, type: 3}
@@ -1679,7 +1674,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1022986075}
   m_Layer: 5
-  m_Name: Inventory Window
+  m_Name: Weapon Inventory Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1971,32 +1966,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1380597223}
   m_CullTransparentMesh: 1
---- !u!1 &1392852921 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1112869801158244, guid: f50a68efcef03a246b5ec7635f125d3d, type: 3}
-  m_PrefabInstance: {fileID: 221440417}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1392852922 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4064493243422118, guid: f50a68efcef03a246b5ec7635f125d3d, type: 3}
-  m_PrefabInstance: {fileID: 221440417}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1392852923
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1392852921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2be18d5254c4d30458e01dfb2a9052c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentOverride: {fileID: 324941301}
-  isLeftHandSlot: 1
-  isRightHandSlot: 0
-  currentWeaponModel: {fileID: 0}
 --- !u!1 &1396669021
 GameObject:
   m_ObjectHideFlags: 0
@@ -2302,6 +2271,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1672456520108565165, guid: 94e5f6efea465574d9763007ccbedbb9, type: 3}
+      propertyPath: m_Name
+      value: HUD Window
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672456520108565165, guid: 94e5f6efea465574d9763007ccbedbb9, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -2403,3 +2376,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94e5f6efea465574d9763007ccbedbb9, type: 3}
+--- !u!1 &1672456521294381235 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1672456520108565165, guid: 94e5f6efea465574d9763007ccbedbb9, type: 3}
+  m_PrefabInstance: {fileID: 1672456521294381234}
+  m_PrefabAsset: {fileID: 0}

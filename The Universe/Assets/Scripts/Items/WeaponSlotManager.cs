@@ -6,11 +6,9 @@ namespace Universe
 {
     public class WeaponSlotManager : MonoBehaviour
     {
-        WeaponHolderSlot leftHandSlot;
-        WeaponHolderSlot rightHandSlot;
+        WeaponHolderSlot HandSlot;
 
-        DamageCollider leftHandDamageCollider;
-        DamageCollider rightHandDamageCollider;
+        DamageCollider HandDamageCollider;
 
         Animator animator;
 
@@ -23,46 +21,24 @@ namespace Universe
             WeaponHolderSlot[] weaponHolderSlots = GetComponentsInChildren<WeaponHolderSlot>();
             foreach(WeaponHolderSlot weaponSlot in weaponHolderSlots)
             {
-                if(weaponSlot.isLeftHandSlot)
+                if(weaponSlot.isHandSlot)
                 {
-                    leftHandSlot = weaponSlot;
-                }
-                else  if(weaponSlot.isRightHandSlot)
-                {
-                    rightHandSlot = weaponSlot;
+                    HandSlot = weaponSlot;
                 }
             }
         }
-        public void LoadWeaponOnSlot(WeaponItem weaponItem, bool isLeft)
+        public void LoadWeaponOnSlot(WeaponItem weaponItem, bool inHand)
         {
-            if(isLeft)
+            if(inHand)
             {
-                leftHandSlot.LoadWeaponModel(weaponItem);
-                LoadLeftWeaponDamageCollider();
-                quickSlotUI.UpdateWeaponQuickSlotsUI(true, weaponItem);
-
-                #region Handle Left Weapon Idle Animations
-                if(weaponItem != null)
-                {
-                    animator.CrossFade(weaponItem.Axe_Idle_L, 0.2f);
-                }
-                else
-                {
-                    animator.CrossFade("Left Arm Empty", 0.2f);
-                }
-
-                #endregion
-            }
-            else
-            {
-                rightHandSlot.LoadWeaponModel(weaponItem);
-                LoadRightWeaponDamageCollider();
+                HandSlot.LoadWeaponModel(weaponItem);
+                LoadWeaponDamageCollider();
                 quickSlotUI.UpdateWeaponQuickSlotsUI(true, weaponItem);
 
                 #region Handle Right Weapon Idle Animations
                 if(weaponItem != null)
                 {
-                    animator.CrossFade(weaponItem.Axe_Idle_R, 0.2f);
+                    animator.CrossFade(weaponItem.Axe_Idle, 0.2f);
                 }
                 else
                 {
@@ -75,34 +51,19 @@ namespace Universe
 
         #region Handle Weapon's Damage Collider
 
-        private void LoadLeftWeaponDamageCollider()
+        private void LoadWeaponDamageCollider()
         {
-            leftHandDamageCollider = leftHandSlot.currentWeaponModel.GetComponentInChildren<DamageCollider>();
+            HandDamageCollider = HandSlot.currentWeaponModel.GetComponentInChildren<DamageCollider>();
         }
 
-        private void LoadRightWeaponDamageCollider()
+        public void OpenDamageCollider()
         {
-            rightHandDamageCollider = rightHandSlot.currentWeaponModel.GetComponentInChildren<DamageCollider>();
+            HandDamageCollider.EnableDamageCollider();
         }
 
-        public void OpenRightDamageCollider()
+        public void CloseDamageCollider()
         {
-            rightHandDamageCollider.EnableDamageCollider();
-        }
-
-        public void OpenLeftDamageCollider()
-        {
-            leftHandDamageCollider.EnableDamageCollider();
-        }
-
-        public void CloseRightDamageCollider()
-        {
-            rightHandDamageCollider.DisableDamageCollider();
-        }
-
-        public void CloseLeftDamageCollider()
-        {
-            leftHandDamageCollider.DisableDamageCollider();
+            HandDamageCollider.DisableDamageCollider();
         }
 
         #endregion

@@ -14,15 +14,12 @@ namespace Universe
 
         public bool b_Input;
         public bool PickUp_Input;
-        public bool rb_Input;
-        public bool rt_Input;
+        public bool light_Input;
+        public bool heavy_Input;
         public bool jump_Input;
         public bool inventory_Input;
 
-        public bool d_Pad_Up;
-        public bool d_Pad_Down;
-        public bool d_Pad_Left;
-        public bool d_Pad_Right;
+        public bool quickChange;
 
         public bool rollFlag;
         public bool sprintFlag;
@@ -105,32 +102,28 @@ namespace Universe
 
         private void HandleAttackInput(float delta)
         {
-            inputActions.PlayerActions.RB.performed += i => rb_Input = true;
-            inputActions.PlayerActions.RT.performed += i => rt_Input = true;
+            inputActions.PlayerActions.LightAttack.performed += i => light_Input = true;
+            inputActions.PlayerActions.HeavyAttack.performed += i => heavy_Input = true;
 
-            //RB Input handles the RIGHT hand weapon's light attack
-            if(rb_Input)
+            //Handle the weapon's light attack
+            if(light_Input)
             {
-                playerAttacker.HandleLightAttack(playerInventory.rightWeapon);
+                playerAttacker.HandleLightAttack(playerInventory.Hweapon);
             }
 
-            if(rt_Input)
+            //Handle the weapon's heavy attack
+            if(heavy_Input)
             {
-                playerAttacker.HandleHeavyAttack(playerInventory.rightWeapon);
+                playerAttacker.HandleHeavyAttack(playerInventory.Hweapon);
             }
         }
     
         private void HandleQuickSlotsInput()
         {
-            inputActions.PlayerQuickSlots.DPadRight.performed += i => d_Pad_Right = true;
-            inputActions.PlayerQuickSlots.DPadLeft.performed += i => d_Pad_Left = true;
-            if(d_Pad_Right)
+            inputActions.PlayerQuickSlots.QuickChange.performed += i => quickChange = true;
+            if(quickChange)
             {
-                playerInventory.ChangeRightWeapon();
-            }
-            else if(d_Pad_Left)
-            {
-                playerInventory.ChangeLeftWeapon();
+                playerInventory.ChangeWeapon();
             }
         }
 
@@ -156,10 +149,14 @@ namespace Universe
                 if(inventoryFlag)
                 {
                     uiManager.OpenSelectWindow();
+                    uiManager.UpdateUI();
+                    uiManager.hudWindow.SetActive(false);
                 }
                 else
                 {
                     uiManager.CloseSelectWindow();
+                    uiManager.CloseAllInventoryWindows();
+                    uiManager.hudWindow.SetActive(true);
                 }
             }
         }

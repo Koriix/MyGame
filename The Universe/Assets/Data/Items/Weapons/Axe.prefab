@@ -170,3 +170,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a18fd9d0f0d908741881e601b5ced6fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentWeaponDamage: 13
