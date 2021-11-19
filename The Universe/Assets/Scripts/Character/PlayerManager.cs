@@ -37,11 +37,9 @@ namespace Universe
 
             isInteracting = anim.GetBool("isInteracting");
             anim.SetBool("isInAir", isInAir);
-            
+
             inputHandler.TickInput(delta);
-            playerLocomotion.HandleMovement(delta);
             playerLocomotion.HandleRollingAndSprinting(delta);
-            playerLocomotion.HandleFalling(delta, playerLocomotion.moveDirection);
             playerLocomotion.HandleJumping();
 
             CheckForInteractableObject();
@@ -50,24 +48,26 @@ namespace Universe
         private void FixedUpdate()
         {
             float delta = Time.fixedDeltaTime;
-
-            if(cameraHandler != null)
-            {
-                cameraHandler.FollowTarget(delta);
-                cameraHandler.HandleCameraRotation(delta, inputHandler.mouseX, inputHandler.mouseY);
-            }
+            playerLocomotion.HandleMovement(delta);
+            playerLocomotion.HandleFalling(delta, playerLocomotion.moveDirection);
         }
 
         private void LateUpdate()
         {
             inputHandler.rollFlag = false;
-            inputHandler.sprintFlag = false;
             inputHandler.light_Input = false;
             inputHandler.heavy_Input = false;
             inputHandler.quickChange = false;
             inputHandler.PickUp_Input = false;
             inputHandler.jump_Input = false;
             inputHandler.inventory_Input = false;
+
+            float delta = Time.deltaTime;
+            if(cameraHandler != null)
+            {
+                cameraHandler.FollowTarget(delta);
+                cameraHandler.HandleCameraRotation(delta, inputHandler.mouseX, inputHandler.mouseY);
+            }
 
             if(isInAir)
             {

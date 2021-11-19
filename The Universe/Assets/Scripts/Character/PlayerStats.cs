@@ -4,11 +4,8 @@ using UnityEngine;
 
 namespace Universe
 {
-    public class PlayerStats : MonoBehaviour
+    public class PlayerStats : CharacterStats
     {
-        public int healthlevel = 10;
-        public int maxHealth;
-        public int currentHealth;
         public HealthBar healthBar;
 
         AnimatorHandler animatorHandler;
@@ -27,7 +24,7 @@ namespace Universe
 
         private int SetMaxHealthFromHealthLevel()
         {
-            maxHealth = healthlevel * 10;
+            //maxHealth = healthlevel * 10;
             return maxHealth;
         }
 

@@ -49,6 +49,12 @@ namespace Universe
                 inputActions = new PlayerControls();
                 inputActions.PlayerMovement.Movement.performed += inputActions => movementInput = inputActions.ReadValue<Vector2>();
                 inputActions.PlayerMovement.Camera.performed += i => cameraInput = i.ReadValue<Vector2>();
+                inputActions.PlayerActions.LightAttack.performed += i => light_Input = true;
+                inputActions.PlayerActions.HeavyAttack.performed += i => heavy_Input = true;
+                inputActions.PlayerQuickSlots.QuickChange.performed += i => quickChange = true;
+                inputActions.PlayerActions.PickUp.performed += i => PickUp_Input = true;
+                inputActions.PlayerActions.Jump.performed += i => jump_Input = true;
+                inputActions.PlayerActions.Inventory.performed += i => inventory_Input = true;
             }
 
             inputActions.Enable();
@@ -65,8 +71,6 @@ namespace Universe
             HandleRollInput(delta);
             HandleAttackInput(delta);
             HandleQuickSlotsInput();
-            HandleInteractingButtonInput();
-            HandleJumpInput();
             HandleInventoryInput();
         }
 
@@ -82,11 +86,11 @@ namespace Universe
         private void HandleRollInput(float delta)
         {
             b_Input = inputActions.PlayerActions.Roll.phase == UnityEngine.InputSystem.InputActionPhase.Started;
+            sprintFlag = b_Input;
 
             if(b_Input)
             {
                 rollInputTimer += delta;
-                sprintFlag = true;
             }
             else
             {
@@ -102,9 +106,6 @@ namespace Universe
 
         private void HandleAttackInput(float delta)
         {
-            inputActions.PlayerActions.LightAttack.performed += i => light_Input = true;
-            inputActions.PlayerActions.HeavyAttack.performed += i => heavy_Input = true;
-
             //Handle the weapon's light attack
             if(light_Input)
             {
@@ -120,28 +121,14 @@ namespace Universe
     
         private void HandleQuickSlotsInput()
         {
-            inputActions.PlayerQuickSlots.QuickChange.performed += i => quickChange = true;
             if(quickChange)
             {
                 playerInventory.ChangeWeapon();
             }
         }
 
-        private void HandleInteractingButtonInput()
-        {
-            inputActions.PlayerActions.PickUp.performed += i => PickUp_Input = true;
-
-        }
-
-        private void HandleJumpInput()
-        {
-            inputActions.PlayerActions.Jump.performed += i => jump_Input = true;
-        }
-
         private void HandleInventoryInput()
         {
-            inputActions.PlayerActions.Inventory.performed += i => inventory_Input = true;
-
             if(inventory_Input)
             {
                 inventoryFlag = !inventoryFlag;
